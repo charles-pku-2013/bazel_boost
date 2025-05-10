@@ -226,10 +226,11 @@ def boost_deps():
             name = "boost",
             build_file = "@com_github_nelhage_rules_boost//:BUILD.boost",
             patch_cmds = ["rm -f doc/pdf/BUILD"],
-            # sha256 = "d73a8da01e8bf8c7eda40b4c84915071a8c8a0df4a6734537ddde4a8580524ee",
+            sha256 = "9807a5d16566c57fd74fb522764e0b134a8bbe6b6e8967b83afefd30dcd3be81",
             strip_prefix = "boost_1_65_1",
             urls = [
-                "https://boostorg.jfrog.io/artifactory/main/release/1.65.1/source/boost_1_65_1.tar.bz2",
+                # "https://boostorg.jfrog.io/artifactory/main/release/1.65.1/source/boost_1_65_1.tar.bz2",
+                "https://archives.boost.io/release/1.65.1/source/boost_1_65_1.tar.bz2",
             ],
         )
 
